@@ -23,9 +23,9 @@ Schema Builder maintains the database definitions and schema in PHP code. It als
 Laravel uses the Blade Template engine, a lightweight template language used to design hierarchical blocks and layouts with predefined blocks that include dynamic content.
 * **E-mail**
 * **Authentication**
-* **Redis**
+* **Redis** :- 
 Laravel uses Redis to connect to an existing session and general-purpose cache. Redis interacts with session directly.
-* **Queues**
+* **Queues** :- 
 Laravel includes queue services like emailing large number of users or a specified Cron job. These queues help in completing tasks in an easier manner without waiting for the previous task to be completed.
 * **Event and Command Bus**
 <div>
