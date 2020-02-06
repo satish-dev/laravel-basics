@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+// Required parameters
+Route::get('ID/{id}',function($id) {
+    echo 'ID: '.$id;
+ });
+// Optinal parameters
+Route::get('user/{name?}',function ($name = 'Laravel -Basics') 
+{ return $name;});
